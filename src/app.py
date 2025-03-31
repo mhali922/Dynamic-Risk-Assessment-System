@@ -1,6 +1,6 @@
 """
-Author: Ibrahim Sherif
-Date: December, 2021
+Author: Mohammad Hasnain 
+Date: March, 2025
 This script used to create the app Flask API
 """
 import re
@@ -13,7 +13,7 @@ import diagnostics
 
 # Set up variables for use in our script
 app = Flask(__name__)
-app.secret_key = '1652d576-484a-49fd-913a-6879acfa6ba4'
+app.secret_key = '7b771abcf05e6a228d9170088259e5401d6de5f3'
 
 
 @app.route('/')

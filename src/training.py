@@ -1,6 +1,6 @@
 """
-Author: Ibrahim Sherif
-Date: December, 2021
+Author: Mohammad Hasnain
+Date: March, 2025
 This script used for training model on the ingested data
 """
 import os
@@ -10,7 +10,7 @@ import logging
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
 
-from config import MODEL_PATH, DATA_PATH
+from config import MODEL_PATH, /home/mhasnain/wandb/Excercise6/artifacts/preprocessed_data.csv:latest
 
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 
@@ -21,7 +21,7 @@ def train_model():
     and saves the model
     """
     logging.info("Loading and preparing finaldata.csv")
-    data_df = pd.read_csv(os.path.join(DATA_PATH, 'finaldata.csv'))
+    data_df = pd.read_csv(os.path.join(/home/mhasnain/wandb/Excercise6/artifacts/preprocessed_data.csv:latest, 'finaldata.csv'))
     y_df = data_df.pop('exited')
     X_df = data_df.drop(['corporation'], axis=1)
 

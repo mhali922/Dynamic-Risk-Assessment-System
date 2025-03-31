@@ -1,6 +1,6 @@
 """
-Author: Ibrahim Sherif
-Date: December, 2021
+Author: Mohammad Hasnain
+Date: March, 2025
 This script used for scoring the model
 """
 import os

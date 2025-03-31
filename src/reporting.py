@@ -1,6 +1,6 @@
 """
-Author: Ibrahim Sherif
-Date: December, 2021
+Author: Mohammad Hasnain
+Date: March, 2025
 This script used to generate a confusion matrix and
 generate PDF report
 """
@@ -147,7 +147,7 @@ def generate_pdf_report():
     pdf.drawInlineImage(
         os.path.join(
             MODEL_PATH,
-            'confusionmatrix.png'),
+            'confusionmatrix2.png'),
         40,
         150,
         width=300,

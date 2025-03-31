@@ -2,7 +2,6 @@
 plot a pretty confusion matrix with seaborn
 Created on Mon Jun 25 14:17:37 2018
 @author: Wagner Cipriano - wagnerbhbr - gmail - CEFETMG / MMC
-Github: https://github.com/wcipriano/pretty-print-confusion-matrix
 REFerences:
   https://www.mathworks.com/help/nnet/ref/plotconfusion.html
   https://stackoverflow.com/questions/28200786/how-to-plot-scikit-learn-classification-report

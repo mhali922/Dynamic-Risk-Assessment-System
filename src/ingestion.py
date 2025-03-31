@@ -1,6 +1,6 @@
 """
-Author: Ibrahim Sherif
-Date: December, 2021
+Author: Mohammad Hasnain 
+Date: March, 2025
 This script used for ingesting data
 """
 import os
@@ -9,7 +9,7 @@ import logging
 import pandas as pd
 from datetime import datetime
 
-from config import DATA_PATH, INPUT_FOLDER_PATH
+from config import DATA_PATH, /home/mhasnain/wandb/Excercise6/artifacts/preprocessed_data.csv:latest
 
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 
@@ -23,9 +23,9 @@ def merge_multiple_dataframe():
     df = pd.DataFrame()
     file_names = []
 
-    logging.info(f"Reading files from {INPUT_FOLDER_PATH}")
-    for file in os.listdir(INPUT_FOLDER_PATH):
-        file_path = os.path.join(INPUT_FOLDER_PATH, file)
+    logging.info(f"Reading files from {/home/mhasnain/wandb/Excercise6/artifacts/preprocessed_data.csv:latest}")
+    for file in os.listdir(/home/mhasnain/wandb/Excercise6/artifacts/preprocessed_data.csv:latest):
+        file_path = os.path.join(/home/mhasnain/wandb/Excercise6/artifacts/preprocessed_data.csv:latest, file)
         df_tmp = pd.read_csv(file_path)
 
         file = os.path.join(*file_path.split(os.path.sep)[-3:])
